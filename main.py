@@ -17,8 +17,7 @@ def start():
             leaderboard.append(runner)
         elif func == "wlead":
             for runner in leaderboard:
-                print(runner["name"], runner["time"])
-            
+                print(f"{runner['name']}: {runner['time']}")
                              
                              
 print("Welcome to TimeRank")
