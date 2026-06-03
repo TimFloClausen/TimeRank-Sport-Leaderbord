@@ -4,7 +4,7 @@ leaderboard = []
 
 def start():
     while True:
-        func = input("What do you wana do? Ad name or retrieve leaderbord? adn/wlead")
+        func = input("What do you wana do? Ad name or retrieve leaderbord? adn/wlead ")
         if func == "adn":
             add_name = input("Add name: ")
             add_time = input(f"Add time of {add_name}: ")
@@ -15,7 +15,10 @@ def start():
             }
 
             leaderboard.append(runner)
-            break
+        elif func == "wlead":
+            for runner in leaderboard:
+                print(runner["name"], runner["time"])
+            
                              
                              
 print("Welcome to TimeRank")
