@@ -15,15 +15,13 @@ def start():
             }
 
             leaderboard.append(runner)
-           
+            break
                              
                              
 print("Welcome to TimeRank")
 print("Made by TimFloClausen")
 
 enter = input("Press enter to start! ")
-
-if enter:
-    start()
+start()
 
 
