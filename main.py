@@ -1,3 +1,10 @@
+def start():
+    while True:
+        func = input("What do you wana do? Ad name or retrieve leaderbord? adn/wlead")
+        if 
+
+
+
 print("Welcome to TimeRank")
 print("Made by TimFloClausen")
 
@@ -9,5 +16,3 @@ else:
     start()
 
 
-def start():
-    while True:
